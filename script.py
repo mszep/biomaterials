@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import itertools
 import os
 import numpy as np
@@ -97,3 +99,6 @@ def main(intup=None):
               score_material(prediction_entries[i], model, scaler)
 
     return X, Y, scaler
+
+if __name__ == '__main__':
+    main()
